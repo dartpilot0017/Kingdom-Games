@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  max-weight: 100%;
+}
+
+#root {
+  display: contents;
+  overflow: hidden;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+/* html, body {
+  scroll-behavior: smooth; */
+  /* margin: 0;
+  padding: 0; */
+  /* max-with: 100%;
+  animation: zoomIn 0.9s linear 1; */
+  /* animation: zoomIn 30s infinite linear; */
+/* } */
+
+/* @keyframes zoomIn {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+
+/* Parallax background image */
+.parallax-image {
+  background-image: url('path-to-your-image.jpg'); /* Replace with your image */
+  background-attachment: fixed; /* Creates the parallax effect */
+  background-size: 100%; /* Initial size */
+  background-position: center;
+  filter: blur(3px);
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-out; /* Smooth zoom */
+}
+
+/* Add a hover or scroll zoom effect */
+.parallax-image:hover,
+.parallax-image:focus-within {
+  background-size: 120%; /* Slightly zoom in */
+}
+
+/* styles.css */
+
+/* Hero Section Styles */
+.hero-bg {
+  background-image: url('https://images.unsplash.com/photo-1530543591690-29750de55028?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(3px); */
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the transparency and color as needed */
+  position: absolute;
+  scroll-behavior: smooth;
+  inset: 0;
+  z-index: -1;
+}
+
+.hero-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the transparency and color as needed */
+  z-index: -1;
+}
+
+.hero-content {
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay */
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+/* Game Showcase Section */
+.game-showcase-container {
+  background-color: #f5f5dc; /* Light Ivory */
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.game-card {
+  background-color: #003366; /* Royal Blue */
+  color: #ffd700; /* Golden Yellow */
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.game-card:hover {
+  background-color: #87ceeb; /* Light Sky Blue */
+  color: #333333; /* Charcoal Black */
+}
+
+/* About Us Section */
+.about-us-container {
+  background: linear-gradient(to right, #228b22, #f5f5dc); /* Forest Green to Light Ivory */
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-us-text {
+  color: #333333; /* Charcoal Black */
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.about-us-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Footer Section */
+.footer-bg {
+  background-color: #003366; /* Royal Blue */
+  color: #333333; /* Charcoal Black */
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #ffd700; /* Golden Yellow */
+  margin: 0 1rem;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #003366; /* Royal Blue */
+}
+
