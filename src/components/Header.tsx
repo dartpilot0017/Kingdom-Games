@@ -14,10 +14,10 @@ const Header = () => {
         </div>
         <nav>
           <ul className="flex space-x-4 font-mono">
-            <li className="hover:text-vibrantOrange">Home</li>
-            <li className="hover:text-vibrantOrange">Games</li>
-            <li className="hover:text-vibrantOrange">About Us</li>
-            <li className="hover:text-vibrantOrange">Contact</li>
+            <li className="hover:text-vibrantOrange cursor-pointer">Home</li>
+            <li className="hover:text-vibrantOrange cursor-pointer">Games</li>
+            <li className="hover:text-vibrantOrange cursor-pointer">About Us</li>
+            <li className="hover:text-vibrantOrange cursor-pointer">Contact</li>
           </ul>
         </nav>
       </div>
