@@ -7,6 +7,7 @@ import Hero from './components/HeroSection'
 import GameShowcase from './components/GameGallerySection'
 import AboutUs from './components/AboutUs'
 import Footer from './components/Footer'
+import HomePage from './pages/HomePage'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -33,11 +34,15 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-      <Header />
+      {/* <Header />
       <Hero />
       <GameShowcase />
       <AboutUs />
-      <Footer />
+      <Footer /> */}
+      <Header />
+      <div className='m-10'>
+      </div>
+      <HomePage />
     </>
   )
 }

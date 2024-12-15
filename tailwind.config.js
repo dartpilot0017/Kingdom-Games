@@ -18,6 +18,9 @@ export default {
       fontFamily: {
         epBoxi: ['EP-BOXI', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
+        pressStart: ['Press Start 2P', 'monospace'],
+        russo: ['Russo One', 'sans-serif'],
+        vt323: ['VT323', 'monospace'],
       },
     },
   },
