@@ -3,10 +3,10 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
-import Hero from './components/HeroSection'
-import GameShowcase from './components/GameGallerySection'
-import AboutUs from './components/AboutUs'
-import Footer from './components/Footer'
+// import Hero from './components/HeroSection'
+// import GameShowcase from './components/GameGallerySection'
+// import AboutUs from './components/AboutUs'
+// import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
 
 function App() {
