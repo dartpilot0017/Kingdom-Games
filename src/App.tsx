@@ -11,7 +11,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div className='h-screen bg-shadowGray'>
+    <div className='h-screen bg-shadowGray flex flex-col justify-between'>
       <Header />
       <Router>
         <Routes>
@@ -21,8 +21,10 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </Router>
+      <div className='bottom-0 w-full'>
       <FooterSection />
       </div>
+    </div>
   )
 }
 
