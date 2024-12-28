@@ -5,7 +5,6 @@ import FeaturedGamesSection from '../components/FeaturedGamesSection';
 import CallToActionSection from '../components/CallToActionSection';
 import LatestNewsSection from '../components/LatestNewsSection';
 import WhatWeOfferSection from '../components/WhatWeOfferSection';
-import FooterSection from '../components/Footer';
 
 const HomePage: React.FC = () => {
     return (
@@ -15,7 +14,6 @@ const HomePage: React.FC = () => {
         <WhatWeOfferSection />
         <LatestNewsSection />
         <CallToActionSection />
-        <FooterSection />
         </>
     );
 };
