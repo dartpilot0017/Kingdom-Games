@@ -11,7 +11,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='h-screen bg-shadowGray'>
       <Header />
       <Router>
         <Routes>
@@ -22,7 +22,7 @@ function App() {
         </Routes>
       </Router>
       <FooterSection />
-    </>
+      </div>
   )
 }
 

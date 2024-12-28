@@ -18,8 +18,8 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="bg-shadowGray text-snowWhite p-4 fixed top-0 w-full z-50 border-b border-snowWhite border-opacity-[0.08]">
-      <div className="flex justify-between items-center max-w-7xl mx-auto">
+    <header className="bg-shadowGray text-snowWhite py-4 fixed top-0 w-full flex z-50 border-b border-snowWhite border-opacity-[0.08]">
+      <div className="flex justify-between items-center px-8 w-full">
         <div className="flex items-center">
           <img
             src={logo}
